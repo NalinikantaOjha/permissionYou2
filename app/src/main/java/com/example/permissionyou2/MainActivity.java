@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
-    private final int REAQUEST_CODE=0;
+    private final int REAQUEST_CODE=0;//re
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
