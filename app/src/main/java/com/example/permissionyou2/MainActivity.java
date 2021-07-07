@@ -12,15 +12,15 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
+    private Button butto;
     private final int REAQUEST_CODE=0;//re
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button=findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        butto=findViewById(R.id.button);
+        butto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String[]permission={Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.WRITE_EXTERNAL_STORAGE};
